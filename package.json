@@ -1,12 +1,12 @@
 {
-  "name": "workflow_mal",
+  "name": "ppshot-app",
   "version": "1.0.0",
   "description": "mal for å starte ett nytt prosjekt, web-dev",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server",
-    "start": "live-server",
+    "start": "electron .",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
@@ -16,6 +16,7 @@
   "author": "erlend bergeng",
   "license": "ISC",
   "devDependencies": {
+    "electron": "^26.2.4",
     "eslint": "^8.50.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
@@ -35,5 +36,13 @@
     "*.scss": [
       "prettier --write"
     ]
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bergeng/PPshot-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bergeng/PPshot-app/issues"
+  },
+  "homepage": "https://github.com/bergeng/PPshot-app#readme"
 }
