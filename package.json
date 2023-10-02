@@ -6,7 +6,7 @@
   "scripts": {
     "build": "sass src/scss:dist/css",
     "watch": "sass --watch src/scss:dist/css & live-server",
-    "start": "live-server",
+    "start": "electron .",
     "format": "prettier -w src/**/*.js",
     "lint": "eslint src/**/*.js",
     "lint-fix": "eslint src/**/*.js --cache --fix",
@@ -16,6 +16,7 @@
   "author": "erlend bergeng",
   "license": "ISC",
   "devDependencies": {
+    "electron": "^26.2.4",
     "eslint": "^8.50.0",
     "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
