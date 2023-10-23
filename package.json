@@ -1,6 +1,6 @@
 {
   "name": "ppshot-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "mal for å starte ett nytt prosjekt, web-dev",
   "main": "index.js",
   "scripts": {
