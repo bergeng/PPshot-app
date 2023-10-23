@@ -5,12 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>workflow-mal</title>
     <link rel="stylesheet" href="./dist/css/index.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.3.3/html2canvas.min.js"></script>
   </head>
   <body>
-    <video id="webcam" autoplay playsinline muted></video>
-    <div id="filter" class="filter">
-    </div>
- 
+    
+    <header>
+      <nav>
+        <div class="nav-logo"><img src="./assets/logo.png" alt="ppshot logo"></div>
+        <button class="nav-button"><img src="./assets/icons/settingsYellow.png" alt="settings"></button>
+      </nav>
+      
+    </header>
+    
+    <main>   
+      <div class="clip-area" id="clipArea"></div>
+
+      <video id="webcam" autoplay playsinline muted></video>
+      <div class="drop-box" id="dropBox">
+        <h2>Drop your image file here</h2>
+        <img src="/assets/icons/upload_main_green.png" alt="">
+      </div>
+      <div class="canvas-container" id="canvasContainer"></div>
+      
+      
+      
+    </main>
+    <footer>
+      <div class="action-bar">
+        <button class="upload choice-button" id="upload"></button>
+        <button class="camera choice-button" id="camera"></button>
+        <button class="action" id="action"></button>
+        <button class="delete-button" id="deleteButton"><img src="./assets/icons/delete_red.png" alt=""></button>
+      </div>
+      
+
+    </footer>
   </body>
   <script type="module" src="./src/js/index.js"></script>
 </html>

@@ -1,0 +1,20 @@
+.drop-box img {
+    width: 37px;
+}
+
+.drop-box {
+    border: 2px solid $secondary-color;
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.drop-box:hover {
+    border: 2px solid $primary-color;
+}

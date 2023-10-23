@@ -1,0 +1,25 @@
+.nav-button {
+    background-color: transparent;
+    border: none;
+    width: 37px;
+}
+
+.nav-button img {
+    width: 100%;
+}
+
+.nav-logo {
+    width: 114px;
+}
+
+.nav-logo img {
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 21px;
+    padding: 9px;
+}

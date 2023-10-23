@@ -7,6 +7,7 @@ export async function getWebCam() {
     .catch(error => {
         console.error('Error accessing webcam:', error);
     });
+
 } 
 
 

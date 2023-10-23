@@ -1,0 +1,83 @@
+footer {
+    display: flex;
+    height: 96px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: relative;
+}
+
+.action-bar .choice-button {
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 8px;
+}
+
+.action-bar button img {
+    width: 100%;
+    
+}
+
+.action-bar {
+    display: flex;
+    margin-left: 10px;
+}
+
+.upload {
+    background-image: url("/assets/icons/up-loading_green.png");
+}
+
+.upload {
+    background-image: url("/assets/icons/up-loading_green.png");
+}
+
+.upload:hover {
+    background-image: url("/assets/icons/up-loading_yellow.png");
+}
+
+.camera {
+    background-image: url("/assets/icons/photo-camera_yellow.png");
+}
+.camera:hover {
+    background-image: url("/assets/icons/photo-camera_yellow.png");
+}
+
+.action{
+    background-image: url("/assets/icons/target_green.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 91px;
+    height: 91px;
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 50%);
+}
+
+.action:hover {
+    background-image: url("/assets/icons/target_yellow.png");
+}
+
+.delete-button {
+    position: absolute;
+    width: 50px;
+    right: 9px;
+    top: 30px;
+    //transform: translate(0 -50%);
+    display: none;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button img {
+    width: 100%;
+}
