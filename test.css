@@ -1,0 +1,11 @@
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: brown;
+    position: relative;
+    top: 100px;
+}
+
+img {
+    max-width: 400px;
+}

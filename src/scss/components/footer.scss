@@ -43,11 +43,11 @@ footer {
     background-image: url("/assets/icons/photo-camera_yellow.png");
 }
 .camera:hover {
-    background-image: url("/assets/icons/photo-camera_yellow.png");
+    background-image: url("./assets/icons/photo-camera_yellow.png");
 }
 
 .action{
-    background-image: url("/assets/icons/target_green.png");
+    background-image: url("./assets/icons/target_green.png");
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -63,7 +63,7 @@ footer {
 }
 
 .action:hover {
-    background-image: url("/assets/icons/target_yellow.png");
+    background-image: url("./assets/icons/target_yellow.png");
 }
 
 .delete-button {
